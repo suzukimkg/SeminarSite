@@ -10,8 +10,8 @@ export default async function Page() {
     limit: LIMIT,
   });
   return (
-    <>
+    <div style={{ marginTop: '120px' }}>
       <h1>ホームページ</h1>
-    </>
+    </div>
   );
 }

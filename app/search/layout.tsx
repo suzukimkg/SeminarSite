@@ -21,10 +21,6 @@ export default async function TagsLayout({ children, params }: Props) {
   return (
     <div style={{ marginTop: '120px' }}>
       <Nav tags={tags.contents} />
-      <p className={styles.title}>
-        <TagListItem tag={tag} hasLink={false} />
-        の記事一覧
-      </p>
       <div>{children}</div>
     </div>
   );

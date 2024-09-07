@@ -1,3 +1,5 @@
+import styles from './index.module.css';
+
 const navigation = {
   solutions: [
     { name: 'なんか', href: '#' },
@@ -82,7 +84,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer aria-labelledby="footer-heading" className="bg-white">
+    <footer className={`${styles.footer} w-full bg-white`}>
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -138,7 +140,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
+              <div className="sm:text-left">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">利用規約</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
