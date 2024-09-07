@@ -8,6 +8,9 @@
 a:hover {
   color: #2563eb;
 }
+.blog_layout {
+  width: 720px;
+}
 
 /* .layout_title__n2BOY {
   margin-top: 120px !important;

@@ -70,6 +70,12 @@ export default function Header() {
           <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             ホーム
           </a>
+          <a href="/teacher" className="text-sm font-semibold leading-6 text-gray-900">
+            教授
+          </a>
+          <a href="/member/grade2" className="text-sm font-semibold leading-6 text-gray-900">
+            メンバー
+          </a>
           <a href="/blog" className="text-sm font-semibold leading-6 text-gray-900">
             ブログ
           </a>
@@ -164,6 +170,32 @@ export default function Header() {
                       className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       ホーム
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/teacher"
+                      onClick={(event) => {
+                        event.preventDefault();
+                        setMobileMenuOpen(false);
+                        window.location.href = '/teacher';
+                      }}
+                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                    >
+                      教授
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/member/grade2"
+                      onClick={(event) => {
+                        event.preventDefault();
+                        setMobileMenuOpen(false);
+                        window.location.href = '/member/grade2';
+                      }}
+                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                    >
+                      メンバー
                     </a>
                   </li>
                   <li>

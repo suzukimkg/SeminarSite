@@ -12,7 +12,7 @@ type Props = {
 export default function ArticleListItem({ article }: Props) {
   return (
     <li className={styles.list}>
-      <Link href={`/articles/${article.id}`} className={styles.link}>
+      <a href={`/articles/${article.id}`} className={styles.link}>
         {article.thumbnail ? (
           <picture>
             <source
@@ -50,7 +50,7 @@ export default function ArticleListItem({ article }: Props) {
             <PublishedDate date={article.publishedAt || article.createdAt} />
           </dd>
         </dl>
-      </Link>
+      </a>
     </li>
   );
 }

@@ -2,8 +2,8 @@ import styles from './index.module.css';
 
 const navigation = {
   solutions: [
-    { name: 'なんか', href: '#' },
-    { name: 'なんか', href: '#' },
+    { name: '教授', href: '/teacher' },
+    { name: 'メンバー', href: '/member/grade2' },
   ],
   support: [
     { name: 'なんか', href: '#' },
@@ -11,7 +11,7 @@ const navigation = {
     { name: 'なんか', href: '#' },
   ],
   company: [
-    { name: 'プライバシーポリシー', href: 'privacy' },
+    { name: 'プライバシーポリシー', href: '/privacy' },
     { name: '免責事項', href: '/disclaimer' },
     { name: '著作権', href: '/copyright' },
     { name: 'リンク', href: '/link' },
@@ -33,7 +33,7 @@ const navigation = {
     // },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/szk_seminar/?igsh=MWt5M3Bqb2Q3ZHR6bw%3D%3D',
       icon: (props: React.SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -124,7 +124,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">なんか</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">採用</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>

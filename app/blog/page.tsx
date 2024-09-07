@@ -15,9 +15,11 @@ export default async function Page() {
     limit: LIMIT,
   });
   return (
-    <div style={{ marginTop: '120px' }}>
+    <div style={{ marginTop: '120px' }} className="mx-auto">
       <Nav tags={tags.contents} />
-      <ArticleList articles={data.contents} />
+      <div className="flex justify-center">
+        <ArticleList articles={data.contents} />
+      </div>
       <Pagination totalCount={data.totalCount} />
     </div>
   );
