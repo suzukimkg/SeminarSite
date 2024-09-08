@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* タブレット以下 */
+@media (max-width: 1023px) {
+  .u_tablet_teacher_p {
+    margin-bottom: 30px !important;
+    max-width: 100% !important;
+  }
+  .u_tablet_teacher_img {
+    max-width: 100% !important;
+  }
+}
+
 /* a {
   color: #3b82f6;
 } */

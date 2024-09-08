@@ -4,7 +4,7 @@ import { InformationCircleIcon } from '@heroicons/react/24/solid';
 export default function Privacy() {
   return (
     <div
-      className="mx-auto max-w-3xl text-base leading-7"
+      className="mx-auto max-w-7xl px-6 lg:px-8"
       style={{ marginTop: '120px', marginBottom: '40px' }}
     >
       <h1 className="text-3xl font-bold">
@@ -13,7 +13,7 @@ export default function Privacy() {
           <div className="text-black">プライバシーポリシー</div>
         </div>
       </h1>
-      <div className="mt-10 max-w-2xl">
+      <div className="mt-10">
         <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
           個人情報取り扱いに関する基本方針
         </h2>

@@ -70,9 +70,9 @@ export default function Header() {
           <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             ホーム
           </a>
-          {/* <a href="/teacher" className="text-sm font-semibold leading-6 text-gray-900">
-            教授
-          </a> */}
+          <a href="/activity" className="text-sm font-semibold leading-6 text-gray-900">
+            活動
+          </a>
           <a href="/member" className="text-sm font-semibold leading-6 text-gray-900">
             組織
           </a>
@@ -172,19 +172,19 @@ export default function Header() {
                       ホーム
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a
-                      href="/teacher"
+                      href="/activity"
                       onClick={(event) => {
                         event.preventDefault();
                         setMobileMenuOpen(false);
-                        window.location.href = '/teacher';
+                        window.location.href = '/activity';
                       }}
                       className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
                     >
-                      教授
+                      活動
                     </a>
-                  </li> */}
+                  </li>
                   <li>
                     <a
                       href="/member"
