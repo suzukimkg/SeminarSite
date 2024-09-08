@@ -2,8 +2,8 @@ import styles from './index.module.css';
 
 const navigation = {
   solutions: [
-    { name: '教授', href: '/teacher' },
-    { name: 'メンバー', href: '/member/grade2' },
+    // { name: '教授', href: '/teacher' },
+    { name: '組織', href: '/member' },
   ],
   support: [
     { name: 'なんか', href: '#' },

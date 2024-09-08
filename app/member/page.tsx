@@ -1,7 +1,7 @@
 import { getList } from '@/libs/microcms';
 import { LIMIT } from '@/constants';
 import Pagination from '@/components/Pagination';
-import Grade2 from '@/components/Member/grade2';
+import Member from '@/components/Member';
 
 export const revalidate = 60;
 
@@ -11,7 +11,7 @@ export default async function Page() {
   });
   return (
     <>
-      <Grade2 />
+      <Member />
     </>
   );
 }
