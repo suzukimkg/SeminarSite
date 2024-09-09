@@ -72,7 +72,7 @@ export default function Member() {
     <>
       <div className="">
         <div
-          className="main_side mx-auto max-w-7xl px-6 text-center lg:px-8"
+          className="main_side top_title mx-auto max-w-7xl px-6 text-center lg:px-8"
           style={{ marginTop: '120px', marginBottom: '120px' }}
         >
           <h1 className="text-3xl font-bold">
