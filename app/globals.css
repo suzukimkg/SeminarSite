@@ -23,6 +23,16 @@
   }
 }
 
+@media (max-width: 767px) {
+  .footer_menu {
+    text-align: center !important;
+  }
+  .footer_icon {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* a {
   color: #3b82f6;
 } */

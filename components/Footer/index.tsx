@@ -92,13 +92,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img
-              alt="Company name"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-7"
-            />
-            <p className="text-sm leading-6 text-gray-600">なんか書く</p>
-            <div className="flex space-x-6">
+            <div className="footer_icon">
+              <img
+                alt="Company name"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-7"
+              />
+            </div>
+            <div className="flex space-x-6 footer_icon">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                   <span className="sr-only">{item.name}</span>
@@ -109,7 +110,7 @@ export default function Footer() {
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
+              <div className="footer_menu">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">鈴木ゼミについて</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -124,7 +125,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+              <div className="mt-10 md:mt-0 footer_menu">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">採用</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
@@ -141,7 +142,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="sm:text-left">
+              <div className="sm:text-left footer_menu">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">利用規約</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
@@ -156,7 +157,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+              <div className="mt-10 md:mt-0 footer_menu">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">お問い合わせ</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
@@ -175,7 +176,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">
+          <p className="text-xs leading-5 text-gray-500 footer_menu">
             Copyright © 2024 *サイト名* All Rights Reserved.
           </p>
         </div>
