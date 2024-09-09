@@ -5,7 +5,7 @@ export default function Disclaimer() {
   return (
     <div
       className="mx-auto max-w-7xl px-6 lg:px-8"
-      style={{ marginTop: '120px', marginBottom: '40px' }}
+      style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <div className="mx-auto text-base leading-7">
         {/* <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p> */}

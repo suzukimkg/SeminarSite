@@ -5,7 +5,7 @@ export default function Privacy() {
   return (
     <div
       className="mx-auto max-w-7xl px-6 lg:px-8"
-      style={{ marginTop: '120px', marginBottom: '40px' }}
+      style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <h1 className="text-3xl font-bold">
         <div className="flex items-center pb-2 pt-2 mt-5">

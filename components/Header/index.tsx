@@ -76,9 +76,9 @@ export default function Header() {
           <a href="/member" className="text-sm font-semibold leading-6 text-gray-900">
             組織
           </a>
-          <a href="/blog" className="text-sm font-semibold leading-6 text-gray-900">
+          {/* <a href="/blog" className="text-sm font-semibold leading-6 text-gray-900">
             ブログ
-          </a>
+          </a> */}
           <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
             お問い合わせ
           </a>
@@ -198,7 +198,7 @@ export default function Header() {
                       組織
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/blog"
                       onClick={(event) => {
@@ -210,7 +210,7 @@ export default function Header() {
                     >
                       ブログ
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/contact"
