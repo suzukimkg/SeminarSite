@@ -4,7 +4,7 @@ import { LinkIcon } from '@heroicons/react/24/solid';
 export default function Link() {
   return (
     <div
-      className="mx-auto max-w-7xl px-6 lg:px-8"
+      className="top_title mx-auto max-w-7xl px-6 lg:px-8 main_side top_title"
       style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <div className="mx-auto text-base leading-7">
