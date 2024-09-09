@@ -1,11 +1,11 @@
 'use client';
 
-import { InformationCircleIcon } from '@heroicons/react/24/solid';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import React, { useState, useEffect, useRef, useCallback, Fragment } from 'react';
 import { useForm } from 'react-hook-form';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { Dialog, Transition } from '@headlessui/react';
-import { XMarkIcon, CheckCircleIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
+import { XMarkIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
 export default function Example() {
   const [agreed, setAgreed] = useState(false);
@@ -112,13 +112,13 @@ export default function Example() {
 
   return (
     <div
-      className="mx-auto max-w-7xl px-6 lg:px-8"
+      className="mx-auto max-w-7xl px-6 lg:px-8 main_side top_title"
       style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <div className="">
         <h1 className="text-3xl font-bold">
           <div className="flex items-center pb-2 pt-2 mt-5">
-            <InformationCircleIcon className="h-8 w-8 mr-2" aria-hidden="true" />
+            <EnvelopeIcon className="h-8 w-8 mr-2" aria-hidden="true" />
             <div className="text-black">お問い合わせ</div>
           </div>
         </h1>

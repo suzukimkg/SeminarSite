@@ -12,6 +12,16 @@
     max-width: 100% !important;
   }
 }
+/* モバイル以下 */
+@media (max-width: 640px) {
+  .main_side {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .top_title {
+    margin-top: 80px !important;
+  }
+}
 
 /* a {
   color: #3b82f6;

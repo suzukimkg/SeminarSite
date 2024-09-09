@@ -19,7 +19,8 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '寝るのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
     {
       name: '小栗 ともたか',
@@ -27,7 +28,8 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '寝るのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
     {
       name: '近藤 れおん',
@@ -35,7 +37,8 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '踊るのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
     {
       name: '服部 みさき',
@@ -43,7 +46,8 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '歌うのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
     {
       name: '高野 あらた',
@@ -51,7 +55,8 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '歌うのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
     {
       name: '大谷 はるき',
@@ -59,18 +64,19 @@ export default function Member() {
       imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       // xUrl: '#',
-      description: '歌うのが好き',
+      description:
+        '秋の風が頬に触れると、木々の葉が赤や黄に染まり、道端に落ちた葉のカサカサとした音が響く。澄んだ空の下を歩いていると、遠くから小鳥のさえずりが聞こえてきて、心が和む瞬間だ。',
     },
   ];
   return (
     <>
       <div className="">
         <div
-          className="mx-auto max-w-7xl px-6 text-center lg:px-8"
+          className="main_side mx-auto max-w-7xl px-6 text-center lg:px-8"
           style={{ marginTop: '120px', marginBottom: '120px' }}
         >
           <h1 className="text-3xl font-bold">
-            <div className="flex items-center pb-2 pt-2 mt-10">
+            <div className="flex items-center pb-2 pt-2 mt-5">
               <AcademicCapIcon className="h-8 w-8 mr-2" aria-hidden="true" />
               <div>教授</div>
             </div>
@@ -97,39 +103,6 @@ export default function Member() {
             <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
           </div>
 
-          {/* <h1 className="text-3xl font-bold">
-            <div className="flex items-center pb-2 pt-2 mt-10">
-              <UserIcon className="h-8 w-8 mr-2" aria-hidden="true" />
-              <div>ゼミ長</div>
-            </div>
-          </h1>
-
-          <section className="isolate overflow-hidden bg-white px-6 lg:px-8 text-left">
-            <div className="relative mx-auto max-w-2xl py-10 sm:py-10 lg:max-w-4xl">
-              <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
-                <div className="relative col-span-2 lg:col-start-1 lg:row-start-2">
-                  <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                    <p>
-                      Commodo amet fugiat excepteur sunt qui ea elit cupidatat ullamco consectetur
-                      ipsum elit consequat. Elit sunt proident ea nulla ad nulla dolore ad pariatur
-                      tempor non. Sint veniam minim et ea.
-                    </p>
-                  </blockquote>
-                </div>
-                <div className="col-end-1 w-16 lg:row-span-4 lg:w-72">
-                  <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80"
-                    className="rounded-xl bg-indigo-50 lg:rounded-3xl"
-                  />
-                </div>
-                <figcaption className="text-base lg:col-start-1 lg:row-start-3">
-                  <div className="font-semibold text-gray-900">城下 くうが</div>
-                </figcaption>
-              </figure>
-            </div>
-          </section> */}
-
           <h1 className="text-3xl font-bold">
             <div className="flex items-center pb-2 pt-2 mt-10">
               <UserGroupIcon className="h-8 w-8 mr-2" aria-hidden="true" />
@@ -138,7 +111,7 @@ export default function Member() {
           </h1>
 
           <div className="bg-white mt-10">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl">
               <dl className="grid grid-cols-3 gap-x-8 gap-y-16 text-center">
                 {stats.map((stat) => (
                   <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -174,7 +147,7 @@ export default function Member() {
                   {person.name}
                 </h3>
                 <p className="text-sm leading-6 text-green-500">{person.role}</p>
-                <p className="text-sm leading-6 text-gray-400">{person.description}</p>
+                <p className="text-sm leading-6 text-left text-gray-400">{person.description}</p>
               </li>
             ))}
           </ul>

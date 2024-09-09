@@ -4,6 +4,7 @@ const navigation = {
   solutions: [
     // { name: '教授', href: '/teacher' },
     { name: '組織', href: '/member' },
+    { name: '活動', href: '/activity' },
   ],
   support: [
     { name: 'なんか', href: '#' },
@@ -115,7 +116,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
                       >
                         {item.name}
                       </a>
@@ -130,7 +131,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
                       >
                         {item.name}
                       </a>
@@ -147,7 +148,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
                       >
                         {item.name}
                       </a>
@@ -162,7 +163,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
                       >
                         {item.name}
                       </a>

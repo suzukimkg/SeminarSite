@@ -4,7 +4,7 @@ import { InformationCircleIcon } from '@heroicons/react/24/solid';
 export default function Privacy() {
   return (
     <div
-      className="mx-auto max-w-7xl px-6 lg:px-8"
+      className="mx-auto max-w-7xl px-6 lg:px-8 main_side top_title"
       style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <h1 className="text-3xl font-bold">
