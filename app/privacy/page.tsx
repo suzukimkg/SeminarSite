@@ -5,6 +5,21 @@ import Privacy from '@/components/Privacy';
 
 export const revalidate = 60;
 
+export const metadata = {
+  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
+  title: 'プライバシーポリシー｜鈴木ゼミ',
+  description: 'プライバシーポリシーについて紹介しています。',
+  openGraph: {
+    title: 'プライバシーポリシー｜鈴木ゼミ',
+    description: 'プライバシーポリシーについて紹介しています。',
+    images: '',
+    url: '',
+  },
+  alternates: {
+    canonical: '',
+  },
+};
+
 export default async function Page() {
   const data = await getList({
     limit: LIMIT,
