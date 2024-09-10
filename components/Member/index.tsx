@@ -128,7 +128,7 @@ export default function Member() {
           <h1 className="text-3xl font-bold">
             <div className="flex items-center pb-2 pt-2 mt-10">
               <CheckBadgeIcon className="h-8 w-8 mr-2" aria-hidden="true" />
-              <div>代表者</div>
+              <div>メンバー</div>
             </div>
           </h1>
 

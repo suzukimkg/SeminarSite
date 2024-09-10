@@ -4,7 +4,7 @@ import Pagination from '@/components/Pagination';
 import ArticleList from '@/components/ArticleList';
 import Nav from '@/components/Nav';
 import { getTagList } from '@/libs/microcms';
-import { InformationCircleIcon } from '@heroicons/react/20/solid';
+import { DocumentTextIcon } from '@heroicons/react/24/solid';
 
 export const revalidate = 60;
 
@@ -17,12 +17,12 @@ export default async function Page() {
   });
   return (
     <div
-      className="mx-auto max-w-7xl px-6 lg:px-8"
+      className="mx-auto max-w-7xl px-6 lg:px-8 main_side top_title"
       style={{ marginTop: '120px', marginBottom: '120px' }}
     >
       <h1 className="text-3xl font-bold">
         <div className="flex items-center pb-2 pt-2 mt-5">
-          <InformationCircleIcon className="h-8 w-8 mr-2" aria-hidden="true" />
+          <DocumentTextIcon className="h-8 w-8 mr-2" aria-hidden="true" />
           <div className="text-black">ブログ</div>
         </div>
       </h1>
