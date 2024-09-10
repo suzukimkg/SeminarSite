@@ -158,6 +158,7 @@ export default function Header() {
                   <XMarkIcon className="h-6 w-6 text-gray-900" aria-hidden="true" />
                   <span className="sr-only">Close menu</span>
                 </button>
+                <div className="bg-gray-300 text-center py-2 text-xl font-bold">Menu</div>
                 <ul className="mt-5 space-y-6">
                   <li>
                     <a
@@ -167,9 +168,9 @@ export default function Header() {
                         setMobileMenuOpen(false);
                         window.location.href = '/';
                       }}
-                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block text-base font-semibold text-gray-900"
                     >
-                      ホーム
+                      ▶︎ ホーム
                     </a>
                   </li>
                   <li>
@@ -180,9 +181,9 @@ export default function Header() {
                         setMobileMenuOpen(false);
                         window.location.href = '/activity';
                       }}
-                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block text-base font-semibold text-gray-900"
                     >
-                      活動
+                      ▶︎ 活動
                     </a>
                   </li>
                   <li>
@@ -193,9 +194,9 @@ export default function Header() {
                         setMobileMenuOpen(false);
                         window.location.href = '/member';
                       }}
-                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block text-base font-semibold text-gray-900"
                     >
-                      組織
+                      ▶︎ 組織
                     </a>
                   </li>
                   {/* <li>
@@ -206,7 +207,7 @@ export default function Header() {
                         setMobileMenuOpen(false);
                         window.location.href = '/blog';
                       }}
-                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block text-base font-semibold text-gray-900"
                     >
                       ブログ
                     </a>
@@ -219,9 +220,9 @@ export default function Header() {
                         setMobileMenuOpen(false);
                         window.location.href = '/contact';
                       }}
-                      className="block text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      className="block text-base font-semibold text-gray-900"
                     >
-                      お問い合わせ
+                      ▶︎ お問い合わせ
                     </a>
                   </li>
                   {/* <li>
