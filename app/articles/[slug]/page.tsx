@@ -25,12 +25,17 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   });
 
   return {
-    title: data.title,
+    //検証 OK
+    title: data.title + '｜鈴木ゼミ',
     description: data.description,
     openGraph: {
-      title: data.title,
+      title: data.title + '｜鈴木ゼミ',
       description: data.description,
       images: [data?.thumbnail?.url || ''],
+      url: '' + data.id,
+    },
+    alternates: {
+      canonical: '' + data.id,
     },
   };
 }
