@@ -8,6 +8,21 @@ import { DocumentIcon, ChevronRightIcon, HomeIcon } from '@heroicons/react/24/so
 
 export const revalidate = 60;
 
+export const metadata = {
+  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
+  title: 'ブログ｜鈴木ゼミ',
+  description: '鈴木ゼミのブログを紹介しています。',
+  openGraph: {
+    title: 'ブログ｜鈴木ゼミ',
+    description: '鈴木ゼミのブログを紹介しています。',
+    images: '',
+    url: '',
+  },
+  alternates: {
+    canonical: '',
+  },
+};
+
 export default async function Page() {
   const data = await getList({
     limit: LIMIT,
