@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getDetail } from '@/libs/microcms';
 import Article from '@/components/Article';
+import { InformationCircleIcon } from '@heroicons/react/20/solid';
 
 type Props = {
   params: {
@@ -34,5 +35,18 @@ export default async function Page({ params, searchParams }: Props) {
     draftKey: searchParams.dk,
   });
 
-  return <Article data={data} />;
+  return (
+    <div
+      className="mx-auto max-w-7xl px-6 lg:px-8 main_side top_title"
+      style={{ marginTop: '120px', marginBottom: '120px' }}
+    >
+      {/* <h1 className="text-3xl font-bold">
+        <div className="flex items-center pb-2 pt-2 mt-5">
+          <InformationCircleIcon className="h-8 w-8 mr-2" aria-hidden="true" />
+          <div className="text-black">ブログ</div>
+        </div>
+      </h1> */}
+      <Article data={data} />
+    </div>
+  );
 }

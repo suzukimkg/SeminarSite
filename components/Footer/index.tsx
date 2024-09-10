@@ -5,6 +5,7 @@ const navigation = {
     // { name: '教授', href: '/teacher' },
     { name: '組織', href: '/member' },
     { name: '活動', href: '/activity' },
+    { name: 'ブログ', href: '/blog' },
   ],
   support: [
     { name: 'なんか', href: '#' },

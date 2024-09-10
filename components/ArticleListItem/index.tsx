@@ -11,45 +11,26 @@ type Props = {
 
 export default function ArticleListItem({ article }: Props) {
   return (
-    <li className={styles.list}>
-      <a href={`/articles/${article.id}`} className={styles.link}>
-        {article.thumbnail ? (
-          <picture>
-            <source
-              type="image/webp"
-              media="(max-width: 640px)"
-              srcSet={`${article.thumbnail?.url}?fm=webp&w=414 1x, ${article.thumbnail?.url}?fm=webp&w=414&dpr=2 2x`}
-            />
-            <source
-              type="image/webp"
-              srcSet={`${article.thumbnail?.url}?fm=webp&fit=crop&w=240&h=126 1x, ${article.thumbnail?.url}?fm=webp&fit=crop&w=240&h=126&dpr=2 2x`}
-            />
-            <img
-              src={article.thumbnail?.url || `/noimage.png`}
-              alt=""
-              className={styles.image}
-              width={article.thumbnail?.width}
-              height={article.thumbnail?.height}
-            />
-          </picture>
-        ) : (
-          <Image
-            className={styles.image}
-            src="/no-image.png"
-            alt="No Image"
-            width={1200}
-            height={630}
+    <li className="flex flex-col items-start justify-between border border-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-200 transform hover:-translate-y-1">
+      <a href={`/articles/${article.id}`} className="block w-full h-full p-1 hover:text-black">
+        <div className="relative w-full">
+          <img
+            alt=""
+            src={article.thumbnail?.url || '/noimage.png'}
+            className="aspect-[16/9] w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
           />
-        )}
-        <dl className={styles.content}>
-          <dt className={styles.title}>{article.title}</dt>
-          <dd>
-            <TagList tags={article.tags} hasLink={false} />
-          </dd>
-          <dd className={styles.date}>
+          <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+        </div>
+        <div className="max-w-xl">
+          <div className="group relative">
+            <h3 className="mt-3 text-lg font-semibold leading-6">{article.title}</h3>
+            <p className="mt-3 line-clamp-3 text-sm leading-6">{article.description}</p>
+          </div>
+          <div className="flex items-center gap-x-4 text-xs">
             <PublishedDate date={article.publishedAt || article.createdAt} />
-          </dd>
-        </dl>
+            {/* <TagList tags={article.tags} hasLink={false} /> */}
+          </div>
+        </div>
       </a>
     </li>
   );
