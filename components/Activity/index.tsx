@@ -161,7 +161,7 @@ export default function Activity() {
                       href="/activity"
                       className="ml-4 text-sm font-medium text-gray-500 hover:text-blue-500"
                     >
-                      活動
+                      活動内容
                     </a>
                   </div>
                 </li>
