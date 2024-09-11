@@ -209,7 +209,7 @@ export default function Header() {
                       }}
                       className="block text-base font-semibold text-gray-900"
                     >
-                      ブログ
+                      ▶︎ ブログ
                     </a>
                   </li>
                   <li>

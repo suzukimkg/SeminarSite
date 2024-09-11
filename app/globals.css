@@ -12,8 +12,17 @@
     max-width: 100% !important;
   }
 }
+/* モバイル以外 */
+@media (min-width: 640px) {
+  .mobile {
+    display: none !important;
+  }
+}
 /* モバイル以下 */
 @media (max-width: 640px) {
+  .pc {
+    display: none !important;
+  }
   .main_side {
     padding-left: 0 !important;
     padding-right: 0 !important;
