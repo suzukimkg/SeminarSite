@@ -26,10 +26,10 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
 
   return {
     //検証 OK
-    title: data.title + '｜鈴木ゼミ',
+    title: data.title + '｜鈴木ゼミ｜東洋大学経営学部マーケティング学科鈴木ゼミナール',
     description: data.description,
     openGraph: {
-      title: data.title + '｜鈴木ゼミ',
+      title: data.title + '｜鈴木ゼミ｜東洋大学経営学部マーケティング学科鈴木ゼミナール',
       description: data.description,
       images: [data?.thumbnail?.url || ''],
       url: '' + data.id,
