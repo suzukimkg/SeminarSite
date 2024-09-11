@@ -4,7 +4,7 @@ const navigation = {
   solutions: [
     // { name: '教授', href: '/teacher' },
     { name: '組織', href: '/member' },
-    { name: '活動', href: '/activity' },
+    { name: '活動内容', href: '/activity' },
     { name: 'ブログ', href: '/blog' },
   ],
   support: [
@@ -183,7 +183,8 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-500">
-            Copyright © 2024 *サイト名* All Rights Reserved.
+            Copyright © 2024 鈴木ゼミ｜東洋大学経営学部マーケティング学科鈴木ゼミナール All Rights
+            Reserved.
           </p>
         </div>
       </div>

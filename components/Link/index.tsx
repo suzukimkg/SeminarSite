@@ -43,7 +43,7 @@ export default function Link() {
         <div className="mt-10">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">リンクについて</h2>
           <p className="mt-6">
-            *サイト名*（以下、「本サービス」と言います。）は完全リンクフリーです。リンクを行う場合の本サービスへの許可や連絡は不要です。
+            鈴木ゼミ｜東洋大学経営学部マーケティング学科鈴木ゼミナール（以下、「本サービス」と言います。）は完全リンクフリーです。リンクを行う場合の本サービスへの許可や連絡は不要です。
           </p>
           <p className="mt-8">ただし、インラインフレームの使用や画像の直リンクはご遠慮ください。</p>
         </div>

@@ -71,7 +71,7 @@ export default function Header() {
             ホーム
           </a>
           <a href="/activity" className="text-sm font-semibold leading-6 text-gray-900">
-            活動
+            活動内容
           </a>
           <a href="/member" className="text-sm font-semibold leading-6 text-gray-900">
             組織
@@ -183,7 +183,7 @@ export default function Header() {
                       }}
                       className="block text-base font-semibold text-gray-900"
                     >
-                      ▶︎ 活動
+                      ▶︎ 活動内容
                     </a>
                   </li>
                   <li>

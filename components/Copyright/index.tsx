@@ -43,7 +43,7 @@ export default function Copyright() {
         <div className="mt-10">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">著作権について</h2>
           <p className="mt-6">
-            *サイト名*（以下、「本サービス」と言います。）のコンテンツ（写真や画像、文章など）の著作権につきましては、
+            鈴木ゼミ｜東洋大学経営学部マーケティング学科鈴木ゼミナール（以下、「本サービス」と言います。）のコンテンツ（写真や画像、文章など）の著作権につきましては、
             原則として本サービスに帰属しており、無断転載することを禁止します。
           </p>
           <p className="mt-8">
