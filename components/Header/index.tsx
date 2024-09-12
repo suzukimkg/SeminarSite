@@ -76,9 +76,12 @@ export default function Header() {
           <a href="/member" className="text-sm font-semibold leading-6 text-gray-900">
             組織
           </a>
-          <a href="/blog" className="text-sm font-semibold leading-6 text-gray-900">
-            ブログ
+          <a href="/selection" className="text-sm font-semibold leading-6 text-gray-900">
+            選考
           </a>
+          {/* <a href="/blog" className="text-sm font-semibold leading-6 text-gray-900">
+            ブログ
+          </a> */}
           <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
             お問い合わせ
           </a>
@@ -201,6 +204,19 @@ export default function Header() {
                   </li>
                   <li>
                     <a
+                      href="/selection"
+                      onClick={(event) => {
+                        event.preventDefault();
+                        setMobileMenuOpen(false);
+                        window.location.href = '/selection';
+                      }}
+                      className="block text-base font-semibold text-gray-900"
+                    >
+                      ▶︎ 選考
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a
                       href="/blog"
                       onClick={(event) => {
                         event.preventDefault();
@@ -211,7 +227,7 @@ export default function Header() {
                     >
                       ▶︎ ブログ
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="/contact"
