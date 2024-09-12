@@ -5,13 +5,9 @@ const navigation = {
     // { name: '教授', href: '/teacher' },
     { name: '組織', href: '/member' },
     { name: '活動内容', href: '/activity' },
-    { name: 'ブログ', href: '/blog' },
+    // { name: 'ブログ', href: '/blog' },
   ],
-  support: [
-    { name: 'なんか', href: '#' },
-    { name: 'なんか', href: '#' },
-    { name: 'なんか', href: '#' },
-  ],
+  support: [{ name: '選考', href: '/selection' }],
   company: [
     { name: 'プライバシーポリシー', href: '/privacy' },
     { name: '免責事項', href: '/disclaimer' },
@@ -132,7 +128,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0 footer_menu">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">採用</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">選考</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
