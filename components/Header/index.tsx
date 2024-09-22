@@ -157,7 +157,12 @@ export default function Header() {
                   <XMarkIcon className="h-6 w-6 text-gray-900" aria-hidden="true" />
                   <span className="sr-only">Close menu</span>
                 </button>
-                <div className="bg-gray-300 text-center py-2 text-xl font-bold">Menu</div>
+                <div
+                  className="text-white text-center py-2 text-xl font-bold"
+                  style={{ backgroundColor: '#017247' }}
+                >
+                  Menu
+                </div>
                 <ul className="mt-5 space-y-6">
                   <li>
                     <a
