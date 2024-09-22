@@ -102,7 +102,7 @@ export default function Footer() {
                   key={item.name}
                   href={item.href}
                   target="blank"
-                  className="text-gray-400 hover:text-gray-500"
+                  className="text-gray-400 hover:text-green-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon aria-hidden="true" className="h-6 w-6" />
@@ -119,7 +119,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
+                        className="text-sm leading-6 text-gray-600 hover:text-green-500"
                       >
                         {item.name}
                       </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
+                        className="text-sm leading-6 text-gray-600 hover:text-green-500"
                       >
                         {item.name}
                       </a>
@@ -151,7 +151,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
+                        className="text-sm leading-6 text-gray-600 hover:text-green-500"
                       >
                         {item.name}
                       </a>
@@ -166,7 +166,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 hover:text-blue-500"
+                        className="text-sm leading-6 text-gray-600 hover:text-green-500"
                       >
                         {item.name}
                       </a>
