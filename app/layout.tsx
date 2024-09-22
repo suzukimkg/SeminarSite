@@ -19,6 +19,9 @@ export const metadata = {
   icons: {
     icon: '/images/icons/favicon.ico',
   },
+  robots: {
+    index: false,
+  },
 };
 
 type Props = {
