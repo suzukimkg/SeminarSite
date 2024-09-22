@@ -90,11 +90,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <div className="footer_icon">
-              <img
-                alt="Company name"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-7"
-              />
+              <img alt="Company name" src="/images/icons/kan_logo.jpeg" className="h-7" />
             </div>
             <div className="flex space-x-6 footer_icon">
               {navigation.social.map((item) => (
