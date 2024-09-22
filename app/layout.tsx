@@ -74,7 +74,7 @@ export default async function RootLayout({ children }: Props) {
         <meta property="og:locale" content="ja_JP" />
 
         {/* Search Console */}
-        <meta name="google-site-verification" content={process.env.SEARCH_CONSOLE_ID} />
+        {/* <meta name="google-site-verification" content={process.env.SEARCH_CONSOLE_ID} /> */}
       </head>
       <body>
         <Header />
