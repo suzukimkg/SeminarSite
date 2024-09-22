@@ -47,7 +47,7 @@ export default async function RootLayout({ children }: Props) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'ここ変える', {
+            gtag('config', 'G-RDPNECEGML', {
               page_path: window.location.pathname,
             });
           `,
